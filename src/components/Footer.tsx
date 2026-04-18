@@ -48,7 +48,7 @@ const Footer = () => (
     <div className="border-t border-border">
       <div className="container py-5 flex flex-col sm:flex-row justify-between gap-2 text-xs text-muted-foreground">
         <span>© {new Date().getFullYear()} NeuraVenture. Dibuat untuk mahasiswa.</span>
-        <span>Disusun oleh <span className="text-foreground font-medium">[Nama Mahasiswa]</span> · NIM <span className="text-foreground font-medium">[XX.XX.XXXX]</span></span>
+        <span>Disusun oleh <span className="text-foreground font-medium">Muhammad Izzul Fahmi Mustofa</span> · NIM <span className="text-foreground font-medium">25.12.3693</span></span>
       </div>
     </div>
   </footer>

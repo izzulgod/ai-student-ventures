@@ -50,11 +50,11 @@ const About = () => {
         <div className="grid sm:grid-cols-2 gap-4 mt-6 pt-6 border-t border-border">
           <div>
             <div className="text-xs uppercase tracking-wider text-muted-foreground mb-1">Penulis</div>
-            <div className="font-display font-semibold text-lg">[Nama Mahasiswa]</div>
+            <div className="font-display font-semibold text-lg">Muhammad Izzul Fahmi Mustofa</div>
           </div>
           <div>
             <div className="text-xs uppercase tracking-wider text-muted-foreground mb-1">NIM</div>
-            <div className="font-display font-semibold text-lg">[XX.XX.XXXX]</div>
+            <div className="font-display font-semibold text-lg">25.12.3693</div>
           </div>
         </div>
       </div>
