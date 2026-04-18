@@ -1,7 +1,8 @@
 import { Link, NavLink, useLocation } from "react-router-dom";
-import { Menu, X, Sparkles } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
+import logo from "@/assets/logo.png";
 
 const links = [
   { to: "/", label: "Beranda" },
@@ -31,12 +32,10 @@ const Navbar = () => {
       )}
     >
       <div className="container flex h-16 items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 group" aria-label="NeuraVenture beranda">
+        <Link to="/" className="flex items-center gap-2.5 group" aria-label="NeuraVenture beranda">
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-primary rounded-lg blur-md opacity-60 group-hover:opacity-100 transition-opacity" />
-            <div className="relative h-9 w-9 rounded-lg bg-gradient-primary grid place-items-center">
-              <Sparkles className="h-5 w-5 text-primary-foreground" />
-            </div>
+            <div className="absolute inset-0 bg-gradient-primary rounded-lg blur-lg opacity-40 group-hover:opacity-70 transition-opacity" />
+            <img src={logo} alt="NeuraVenture logo" width={36} height={36} className="relative h-9 w-9 object-contain" />
           </div>
           <span className="font-display font-bold text-lg tracking-tight">
             Neura<span className="text-gradient">Venture</span>

@@ -1,14 +1,13 @@
 import { Link } from "react-router-dom";
-import { Sparkles, Github, Twitter, Mail } from "lucide-react";
+import { Github, Twitter, Mail } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => (
   <footer className="border-t border-border mt-24">
     <div className="container py-12 grid gap-8 md:grid-cols-3">
       <div>
         <Link to="/" className="flex items-center gap-2 mb-3">
-          <div className="h-8 w-8 rounded-lg bg-gradient-primary grid place-items-center">
-            <Sparkles className="h-4 w-4 text-primary-foreground" />
-          </div>
+          <img src={logo} alt="NeuraVenture logo" width={32} height={32} className="h-8 w-8 object-contain" />
           <span className="font-display font-bold">
             Neura<span className="text-gradient">Venture</span>
           </span>
