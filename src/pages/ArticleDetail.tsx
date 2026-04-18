@@ -45,7 +45,7 @@ const ArticleDetail = () => {
             <span className="flex items-center gap-1.5"><Calendar className="h-4 w-4" />{article.date}</span>
             <span className="flex items-center gap-1.5"><Clock className="h-4 w-4" />{article.readTime}</span>
             <span>·</span>
-            <span>Oleh <span className="text-foreground font-medium">[Nama Mahasiswa]</span></span>
+            <span>Oleh <span className="text-foreground font-medium">Muhammad Izzul Fahmi Mustofa</span></span>
           </div>
         </div>
       </div>
@@ -76,9 +76,9 @@ const ArticleDetail = () => {
             N
           </div>
           <div>
-            <div className="font-display font-semibold">[Nama Mahasiswa]</div>
+            <div className="font-display font-semibold">Muhammad Izzul Fahmi Mustofa</div>
             <div className="text-sm text-muted-foreground">
-              NIM [XX.XX.XXXX] · Mahasiswa{" "}
+              NIM 25.12.3693 · Mahasiswa{" "}
               <a href="https://www.amikom.ac.id" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
                 Universitas Amikom Yogyakarta
               </a>
